@@ -16,4 +16,4 @@ for (i = 0; i<2; i++){
     b = prompt ('На сколько оцените его');
     PersonalMovieBD.movies[a] = b;
 }
-console.log (PersonalMovieBD.movies)
+console.log (PersonalMovieBD)

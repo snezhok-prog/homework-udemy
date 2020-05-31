@@ -26,13 +26,17 @@ PersonalMovieBD = {
  }
 
 function promt_2 (){
-    a = prompt ('Один из последних просмотренных фтльмов?', '');
+    a = prompt ('Один из последних просмотренных фильмов?', '');
     b = prompt ('На сколько оцените его', '');
-    if ((a.length == 0) || (a.length > 50)) {
-        promt_2
+    if ((a == null) || (b == null)) {
+        console.log (111)
+        promt_2 ()
+    } else if ((a.length == 0) || (a.length > 50)) {
+        promt_2 ()
     }
     return (a,b)
 }
+
 for (i = 0; i<2; i++){
     promt_2 ()
     PersonalMovieBD.movies[a] = b;

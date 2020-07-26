@@ -27,7 +27,7 @@ PersonalMovieBD = {
 
 function promt_2 (){
     a = prompt ('Один из последних и не только последних просмотренных фильмов?', '');
-    b = prompt ('На сколько оцените его', '');
+    b = prompt ('На сколько оцените его и не только его', '');
     if ((a == null) || (b == null)) {
         promt_2 ()
     } else if ((a.length == 0) || (a.length > 50)) {

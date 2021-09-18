@@ -1,3 +1,4 @@
+console.log ("Я вернулся ))))");
 function promt () {
     numberOfFilms = +(prompt("Сколько фильмов вы уже посмотрели?", ""));
     if ((numberOfFilms.length == 0) || (numberOfFilms.length >= 50)) {
@@ -5,6 +6,7 @@ function promt () {
     }
 }
 
+promt();
 promt();
 
 PersonalMovieBD = {
